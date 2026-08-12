@@ -8,3 +8,16 @@ public class Book {
     }
 
 }
+
+    class Main {
+    public static void main(String[] args) {
+        Book b = new Book();
+
+        b.title = "Java Basics";
+        b.author = "Abdulrhman";
+
+        b.printInfo();
+
+    }
+
+}
